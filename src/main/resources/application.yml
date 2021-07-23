@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+school.name: shanghaigong
+school.num: 1
+
+whait.name: whait
+whait.num: 1
