@@ -1,8 +1,12 @@
 server:
   port: 8081
 
-school.name: shanghaigong
-school.num: 1
-
-whait.name: whait
-whait.num: 1
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: LEGACYHTML5
+    servlet:
+      content-type: text/html
